@@ -1,0 +1,44 @@
+<?php
+
+/*** include the config file ***/
+include __SITE_PATH . '/application/' . 'config.php';
+
+/*** include the controller class ***/
+include __SITE_PATH . '/application/' . 'controller_base.class.php';
+
+/*** include the registry class ***/
+include __SITE_PATH . '/application/' . 'registry.class.php';
+
+/*** include the language class ***/
+include __SITE_PATH . '/application/' . 'language.class.php';
+
+/*** include the router class ***/
+include __SITE_PATH . '/application/' . 'router.class.php';
+
+/*** include the template class ***/
+include __SITE_PATH . '/application/' . 'template.class.php';
+
+/*** auto load model classes ***/
+function __autoload($class_name) {
+    $filename = strtolower($class_name) . '.class.php';
+    $file = __SITE_PATH . '/model/' . $filename;
+    
+    if (file_exists($file) == false) {
+        return false;
+    }
+    include ($file);
+}
+
+/*** a new registry object ***/
+$registry = new registry;
+
+/*** create the database registry object ***/
+$registry->db = db::getInstance();
+if (isset($_COOKIE['MoodleSession'])) {
+    session_id($_COOKIE['MoodleSession']);
+} else {
+    header('Location:' . MOODLE_URL);
+}
+
+session_start();
+?>
