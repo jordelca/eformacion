@@ -16,7 +16,7 @@
             <ul class="nav navbar-nav">
               <!-- Messages: style can be found in dropdown.less-->
 
-              <li class="dropdown messages-menu" style="background-color: #3995CB;" >
+              <li class="dropdown messages-menu" style="background-color: #374850;" >
                 <a href="http://moodle.eformacion.gva.com" target="_blank" class="dropdown-toggle" style="height: 50px;">
                     <div class="pull-left">
                       <img src="../../dist/img/logo-moodle.png" class="img-circle-moodle" alt="Logo Moodle"/>
@@ -237,9 +237,11 @@
                 </ul>
               </li>
               <!-- Control Sidebar Toggle Button -->
+              <!-- 
               <li>
                 <a href="#" data-toggle="control-sidebar"><i class="fa fa-outdent"></i></a>
               </li>
+              -->
             </ul>
           </div>
         </nav>

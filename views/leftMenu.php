@@ -24,7 +24,7 @@
           <!-- /.search form -->
           <!-- sidebar menu: : style can be found in sidebar.less -->
           <ul class="sidebar-menu">
-           <!-- <li class="header">MENÃš DE NAVEGACIÃ“N</li> -->
+           <!-- <li class="header">MENÚ DE NAVEGACIÓN</li> -->
             <li class="treeview <?= $this->checkController($_SERVER['REQUEST_URI'],'home');?>">
               <a href="/<?=$_SESSION['lang'];?>/home/show">
                 <i class="fa fa-dashboard"></i> <span><?= $this->language->getPhrase("key_dashboard",$_SESSION['lang']) ?></span> <!-- <i class="fa fa-angle-left pull-right"></i> -->
@@ -108,10 +108,14 @@
               </ul>
             </li>
             <li class="treeview <?= $this->checkController($_SERVER['REQUEST_URI'],'search');?>">
-              <a href="/<?=$_SESSION['lang'];?>/search/advanced">
+              <a href="#">
                 <i class="fa fa-search"></i> <span><?= $this->language->getPhrase("key_advanced_search",$_SESSION['lang']) ?></span>
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
+              <ul class="treeview-menu">
+                <li><a href="/<?=$_SESSION['lang'];?>/search/advancedSearch"><i class="fa fa-circle-o"></i> Búsqueda general</a></li>
+                <li><a href="/<?=$_SESSION['lang'];?>/search/advancedUsersSearch"><i class="fa fa-circle-o"></i> Búsqueda de usuarios</a></li>
+              </ul>
             </li>
             <li class="treeview <?= $this->checkController($_SERVER['REQUEST_URI'],'settings');?>">
               <a href="#">

@@ -21,6 +21,12 @@ $(document).ready(function() {
 
     // Horizontal slider
 
+/*
+
+
+
+*/
+
 $("#range_03").ionRangeSlider({
     type: "double",
     grid: true,
@@ -29,6 +35,13 @@ $("#range_03").ionRangeSlider({
     from: 18,
     to: 65
 });
+
+$(".js-reset-03").on("click", function (e) {
+    e.preventDefault();
+    $("#range_03").data("ionRangeSlider").reset();
+});
+
+
 
 $("#range_04").ionRangeSlider({
     type: "double",
@@ -39,12 +52,10 @@ $("#range_04").ionRangeSlider({
     to: 2500
 });
 
-// Save slider instance to var
-var slider = $range.data("ionRangeSlider");
-
-// Call sliders reset method
-slider.reset();
-
+$(".js-reset-04").on("click", function (e) {
+    e.preventDefault();
+    $("#range_04").data("ionRangeSlider").reset();
+});
 
     $('a[data-toggle="collapse"]').on('click', function() {
         var objectID = $(this).attr('href');

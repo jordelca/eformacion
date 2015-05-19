@@ -28,7 +28,7 @@
                     <!-- Form Name -->
                     <!-- <legend class="scheduler-border">Matrícula</legend> -->
                     <!-- Multiple Radios (inline) -->
-                    <div class="col-xs-12 panel panel-default">
+                    <div class="bs-example" style="padding: 10px;">
                       
                         <div class="col-xs-12 col-md-12 pull-right panel-body">
 

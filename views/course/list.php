@@ -17,7 +17,7 @@
                 <div class="box-header table-top">
                  <div class="col-xs-12">
                     <div class="form-group pull-left">
-                    <a href="/<?=$_SESSION['lang'];?>/course/create" class="col-xs-12 btn btn-success"> <?= $this->language->getPhrase("key_create_course",$_SESSION['lang']) ?></a>                      
+                    <a href="/<?=$_SESSION['lang'];?>/course/create" class="col-xs-12 btn btn-primary"> <?= $this->language->getPhrase("key_create_course",$_SESSION['lang']) ?></a>                      
                     </div>
                   </div>
 

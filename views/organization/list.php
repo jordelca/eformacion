@@ -11,14 +11,14 @@
       <div class = "col-xs-12 box-header table-top nopadding">
          <div class="col-xs-12">
             <div class = "form-group pull-left">
-               <a href="/<?=$_SESSION['lang'];?>/organization/create" type = "button" class = "btn btn-success"> <?= $this -> language -> getPhrase("key_create_organization", $_SESSION['lang']) ?> </a> 
+               <a href="/<?=$_SESSION['lang'];?>/organization/create" type = "button" class = "btn btn-primary"> <?= $this -> language -> getPhrase("key_create_organization", $_SESSION['lang']) ?> </a> 
             </div>
          </div>
       </div>
       <div class="col-xs-12 nopadding">
          <div class="col-lg-3 col-xs-6">
             <!-- small box -->
-            <div class="small-box bg-yellow">
+            <div class="small-box bg-aqua">
                   
                <a class="small-box-link" href="/<?=$_SESSION['lang'];?>/organization/profileOrg">
                   <div class="inner">
@@ -36,7 +36,7 @@
          </div>
          <div class="col-lg-3 col-xs-6">
             <!-- small box -->
-            <div class="small-box bg-yellow">
+            <div class="small-box bg-aqua">
                <a class="small-box-link" href="/<?=$_SESSION['lang'];?>/organization/profileOrg">
                   <div class="inner">
                      <h3>IVAJ</h3>
@@ -53,7 +53,7 @@
          </div>
          <div class="col-lg-3 col-xs-6">
             <!-- small box -->
-            <div class="small-box bg-yellow">
+            <div class="small-box bg-aqua">
                <a class="small-box-link" href="/<?=$_SESSION['lang'];?>/organization/profileOrg">
                   <div class="inner">
                      <h3>CGE</h3>
@@ -70,7 +70,7 @@
          </div>
          <div class="col-lg-3 col-xs-6">
             <!-- small box -->
-            <div class="small-box bg-yellow">
+            <div class="small-box bg-aqua">
                <a class="small-box-link" href="/<?=$_SESSION['lang'];?>/organization/profileOrg">
                   <div class="inner">
                      <h3>IVAP</h3>
@@ -87,7 +87,7 @@
          </div>
          <div class="col-lg-3 col-xs-6">
             <!-- small box -->
-            <div class="small-box bg-yellow">
+            <div class="small-box bg-aqua">
                <a class="small-box-link" href="/<?=$_SESSION['lang'];?>/organization/profileOrg">
                   <div class="inner">
                      <h3>CDT</h3>

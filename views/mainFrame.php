@@ -31,10 +31,10 @@
 
     <link href="../../plugins/fileInput/fileInput.css" rel="stylesheet" type="text/css" />
 
-    <link href="../../plugins/ionslider/ion.rangeSlider.css" rel="stylesheet" type="text/css" />
+    <link href="../../plugins/ionslider/css/ion.rangeSlider.css" rel="stylesheet" type="text/css" />
 
     <!--<link href="../../plugins/ionslider/ion.rangeSlider.skinNice.css" rel="stylesheet" type="text/css" />-->
-    <link href="../../plugins/ionslider/ion.rangeSlider.skinFlat.css" rel="stylesheet" type="text/css" />
+    <link href="../../plugins/ionslider/css/ion.rangeSlider.skinFlat.css" rel="stylesheet" type="text/css" />
 
     <link href="../../plugins/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
     
@@ -64,7 +64,7 @@
       
 
       <?php include('mainBottombar.php'); ?>     
-      <?php include('rightMenu.php'); ?>
+      <?php // include('rightMenu.php'); ?>
 
     </div>
           <!-- jQuery 2.1.3 -->

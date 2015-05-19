@@ -13,7 +13,7 @@
       <div class="box-header table-top">
         <div class="col-xs-12 nopadding">
           <div class="col-xs-12 col-md-2 form-group pull-left">
-            <a href="/<?=$_SESSION['lang'];?>/user/insertuser" class="col-xs-12 btn btn-success"> <?= $this->language->getPhrase("key_create_user",$_SESSION['lang']) ?></a>
+            <a href="/<?=$_SESSION['lang'];?>/user/insertuser" class="col-xs-12 btn btn-primary"> <?= $this->language->getPhrase("key_create_user",$_SESSION['lang']) ?></a>
           </div>
           <div class="form-group col-xs-12 col-md-2">
             <select id="select_organization" class="col-xs-12 col-md-6 form-control">
@@ -81,7 +81,7 @@
                     <td data-toggle="modal" data-target="#myModal">Cooper</td>
                     <td data-toggle="modal" data-target="#myModal">info@support.com</td>
                     <td data-toggle="modal" data-target="#myModal">123-4567-890</td>
-                    <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-success btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
+                    <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-primary btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
                     <td><p><a href="/<?=$_SESSION['lang'];?>/user/profile" data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-warning btn-xs" data-title="Edit" ><span class="glyphicon glyphicon-pencil"></span></button></a></p></td>
                     <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
                   </tr>
@@ -93,7 +93,7 @@
                     <td data-toggle="modal" data-target="#myModal">Mossul</td>
                     <td data-toggle="modal" data-target="#myModal">isometric.mohsin@gmail.com</td>
                     <td data-toggle="modal" data-target="#myModal">+923335586757</td>
-                    <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-success btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
+                    <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-primary btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
                     <td><p><a href="/<?=$_SESSION['lang'];?>/user/profile" data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-warning btn-xs" data-title="Edit" ><span class="glyphicon glyphicon-pencil"></span></button></a></p></td>
                     <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
                   </tr>             
@@ -106,7 +106,7 @@
                       <td data-toggle="modal" data-target="#myModal">Mossul</td>
                       <td data-toggle="modal" data-target="#myModal">isometric.mohsin@gmail.com</td>
                       <td data-toggle="modal" data-target="#myModal">+923335586757</td>
-                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-success btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
+                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-primary btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
                       <td><p><a href="/<?=$_SESSION['lang'];?>/user/profile" data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-warning btn-xs" data-title="Edit" ><span class="glyphicon glyphicon-pencil"></span></button></a></p></td>
                       <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
                     </tr>
@@ -118,7 +118,7 @@
                       <td data-toggle="modal" data-target="#myModal">Mossul</td>
                       <td data-toggle="modal" data-target="#myModal">isometric.mohsin@gmail.com</td>
                       <td data-toggle="modal" data-target="#myModal">+923335586757</td>
-                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-success btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
+                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-primary btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
                       <td><p><a href="/<?=$_SESSION['lang'];?>/user/profile" data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-warning btn-xs" data-title="Edit" ><span class="glyphicon glyphicon-pencil"></span></button></a></p></td>
                       <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
                     </tr>
@@ -130,7 +130,7 @@
                       <td data-toggle="modal" data-target="#myModal">Mossul</td>
                       <td data-toggle="modal" data-target="#myModal">isometric.mohsin@gmail.com</td>
                       <td data-toggle="modal" data-target="#myModal">+923335586757</td>
-                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-success btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
+                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-primary btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
                       <td><p><a href="/<?=$_SESSION['lang'];?>/user/profile" data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-warning btn-xs" data-title="Edit" ><span class="glyphicon glyphicon-pencil"></span></button></a></p></td>
                       <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
                     </tr>
@@ -142,7 +142,7 @@
                       <td data-toggle="modal" data-target="#myModal">Mossul</td>
                       <td data-toggle="modal" data-target="#myModal">isometric.mohsin@gmail.com</td>
                       <td data-toggle="modal" data-target="#myModal">+923335586757</td>
-                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-success btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
+                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-primary btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
                       <td><p><a href="/<?=$_SESSION['lang'];?>/user/profile" data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-warning btn-xs" data-title="Edit" ><span class="glyphicon glyphicon-pencil"></span></button></a></p></td>
                       <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
                     </tr>
@@ -154,7 +154,7 @@
                       <td data-toggle="modal" data-target="#myModal">Mossul</td>
                       <td data-toggle="modal" data-target="#myModal">isometric.mohsin@gmail.com</td>
                       <td data-toggle="modal" data-target="#myModal">+923335586757</td>
-                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-success btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
+                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-primary btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
                       <td><p><a href="/<?=$_SESSION['lang'];?>/user/profile" data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-warning btn-xs" data-title="Edit" ><span class="glyphicon glyphicon-pencil"></span></button></a></p></td>
                       <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
                     </tr>
@@ -166,7 +166,7 @@
                       <td data-toggle="modal" data-target="#myModal">Mossul</td>
                       <td data-toggle="modal" data-target="#myModal">isometric.mohsin@gmail.com</td>
                       <td data-toggle="modal" data-target="#myModal">+923335586757</td>
-                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-success btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
+                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-primary btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
                       <td><p><a href="/<?=$_SESSION['lang'];?>/user/profile" data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-warning btn-xs" data-title="Edit" ><span class="glyphicon glyphicon-pencil"></span></button></a></p></td>
                       <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
                     </tr>
@@ -178,7 +178,7 @@
                       <td data-toggle="modal" data-target="#myModal">Mossul</td>
                       <td data-toggle="modal" data-target="#myModal">isometric.mohsin@gmail.com</td>
                       <td data-toggle="modal" data-target="#myModal">+923335586757</td>
-                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-success btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
+                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-primary btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
                       <td><p><a href="/<?=$_SESSION['lang'];?>/user/profile" data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-warning btn-xs" data-title="Edit" ><span class="glyphicon glyphicon-pencil"></span></button></a></p></td>
                       <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
                     </tr>
@@ -190,7 +190,7 @@
                       <td data-toggle="modal" data-target="#myModal">Mossul</td>
                       <td data-toggle="modal" data-target="#myModal">isometric.mohsin@gmail.com</td>
                       <td data-toggle="modal" data-target="#myModal">+923335586757</td>
-                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-success btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
+                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-primary btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
                       <td><p><a href="/<?=$_SESSION['lang'];?>/user/profile" data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-warning btn-xs" data-title="Edit" ><span class="glyphicon glyphicon-pencil"></span></button></a></p></td>
                       <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
                     </tr>
@@ -202,7 +202,7 @@
                       <td data-toggle="modal" data-target="#myModal">Mossul</td>
                       <td data-toggle="modal" data-target="#myModal">isometric.mohsin@gmail.com</td>
                       <td data-toggle="modal" data-target="#myModal">+923335586757</td>
-                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-success btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
+                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-primary btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
                       <td><p><a href="/<?=$_SESSION['lang'];?>/user/profile" data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-warning btn-xs" data-title="Edit" ><span class="glyphicon glyphicon-pencil"></span></button></a></p></td>
                       <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
                     </tr>
@@ -214,7 +214,7 @@
                       <td data-toggle="modal" data-target="#myModal">Mossul</td>
                       <td data-toggle="modal" data-target="#myModal">isometric.mohsin@gmail.com</td>
                       <td data-toggle="modal" data-target="#myModal">+923335586757</td>
-                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-success btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
+                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-primary btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
                       <td><p><a href="/<?=$_SESSION['lang'];?>/user/profile" data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-warning btn-xs" data-title="Edit" ><span class="glyphicon glyphicon-pencil"></span></button></a></p></td>
                       <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
                     </tr>
@@ -226,7 +226,7 @@
                       <td data-toggle="modal" data-target="#myModal">Mossul</td>
                       <td data-toggle="modal" data-target="#myModal">isometric.mohsin@gmail.com</td>
                       <td data-toggle="modal" data-target="#myModal">+923335586757</td>
-                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-success btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
+                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-primary btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
                       <td><p><a href="/<?=$_SESSION['lang'];?>/user/profile" data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-warning btn-xs" data-title="Edit" ><span class="glyphicon glyphicon-pencil"></span></button></a></p></td>
                       <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
                     </tr>
@@ -238,7 +238,7 @@
                       <td data-toggle="modal" data-target="#myModal">Mossul</td>
                       <td data-toggle="modal" data-target="#myModal">isometric.mohsin@gmail.com</td>
                       <td data-toggle="modal" data-target="#myModal">+923335586757</td>
-                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-success btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
+                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-primary btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
                       <td><p><a href="/<?=$_SESSION['lang'];?>/user/profile" data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-warning btn-xs" data-title="Edit" ><span class="glyphicon glyphicon-pencil"></span></button></a></p></td>
                       <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
                     </tr>
@@ -250,7 +250,7 @@
                       <td data-toggle="modal" data-target="#myModal">Mossul</td>
                       <td data-toggle="modal" data-target="#myModal">isometric.mohsin@gmail.com</td>
                       <td data-toggle="modal" data-target="#myModal">+923335586757</td>
-                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-success btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
+                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-primary btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
                       <td><p><a href="/<?=$_SESSION['lang'];?>/user/profile" data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-warning btn-xs" data-title="Edit" ><span class="glyphicon glyphicon-pencil"></span></button></a></p></td>
                       <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
                     </tr>
@@ -262,7 +262,7 @@
                       <td data-toggle="modal" data-target="#myModal">Mossul</td>
                       <td data-toggle="modal" data-target="#myModal">isometric.mohsin@gmail.com</td>
                       <td data-toggle="modal" data-target="#myModal">+923335586757</td>
-                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-success btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
+                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-primary btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
                       <td><p><a href="/<?=$_SESSION['lang'];?>/user/profile" data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-warning btn-xs" data-title="Edit" ><span class="glyphicon glyphicon-pencil"></span></button></a></p></td>
                       <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
                     </tr>
@@ -274,7 +274,7 @@
                       <td data-toggle="modal" data-target="#myModal">Mossul</td>
                       <td data-toggle="modal" data-target="#myModal">isometric.mohsin@gmail.com</td>
                       <td data-toggle="modal" data-target="#myModal">+923335586757</td>
-                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-success btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
+                      <td><p data-placement="top" data-toggle="tooltip" title="Visible"><button class="btn btn-primary btn-xs" data-title="Visible"><span class="glyphicon glyphicon-ok"></span></button></p></td>
                       <td><p><a href="/<?=$_SESSION['lang'];?>/user/profile" data-placement="top" data-toggle="tooltip" title="Edit"><button class="btn btn-warning btn-xs" data-title="Edit" ><span class="glyphicon glyphicon-pencil"></span></button></a></p></td>
                       <td><p data-placement="top" data-toggle="tooltip" title="Delete"><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
                     </tr>

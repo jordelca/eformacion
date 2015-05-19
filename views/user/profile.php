@@ -1,6 +1,12 @@
 <!-- Content Header (Page header) -->
 <section class="col-xs-12 content-header">
-   <h1 class="col-xs-12"><?= $this->language->getPhrase("key_file_user",$_SESSION['lang']) ?></h1>
+   <h1 class="col-xs-10"><?= $this->language->getPhrase("key_file_user",$_SESSION['lang']) ?></h1>
+   <div class="profile-header-right">
+         <div>
+            <a href="/<?=$_SESSION['lang'];?>/user/edit" data-original-title="<?= $this->language->getPhrase("key_edit_user",$_SESSION['lang']) ?>" data-toggle="tooltip" type="button" class="btn btn-sm btn-warning"><?= $this->language->getPhrase("key_edit",$_SESSION['lang']) ?></i></a>
+            <a data-original-title="<?= $this->language->getPhrase("key_remove_user",$_SESSION['lang']) ?>" data-toggle="tooltip" type="button" class="btn btn-sm btn-danger"><?= $this->language->getPhrase("key_remove",$_SESSION['lang']) ?></i></a>
+         </div>
+   </div>
 </section>
 <!-- Main content -->
 <section class="content row">
@@ -9,12 +15,7 @@
          <div class="box-header">
             <div class="">
                <div class="">
-                  <div class="profile-header-right">
-                     <div>
-                       <a href="/<?=$_SESSION['lang'];?>/user/edit" data-original-title="<?= $this->language->getPhrase("key_edit_user",$_SESSION['lang']) ?>" data-toggle="tooltip" type="button" class="btn btn-sm btn-warning"><?= $this->language->getPhrase("key_edit",$_SESSION['lang']) ?></i></a>
-                       <a data-original-title="<?= $this->language->getPhrase("key_remove_user",$_SESSION['lang']) ?>" data-toggle="tooltip" type="button" class="btn btn-sm btn-danger"><?= $this->language->getPhrase("key_remove",$_SESSION['lang']) ?></i></a>
-                     </div>
-                  </div>
+                  
                   <div class="row persist-area" style="margin:0px;">
                      <div class="col-md-3 col-lg-3 persist-header" align="center" style="background-color:white;padding:30px;z-index: 1;">
                         <img alt="User Pic" src="../../dist/img/user2-160x160.jpg" class="img-circle">                           
